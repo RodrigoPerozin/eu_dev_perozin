@@ -10,6 +10,10 @@ body{
     text-align: center;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -17,6 +21,7 @@ header{
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 5em;
 }
 
 header div{
@@ -54,6 +59,7 @@ header li button{
     width: 100%;
     height: 4em;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
     background-color: transparent;
     color: chartreuse;
     border: none;
@@ -73,6 +79,96 @@ header .first-item button{
     border-bottom-left-radius: 15px;
 }
 
-#content{
-    padding-top: 5em;
+pre{
+    height: auto;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about ul{
+    padding: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 40px;
+    border: 1px dashed rgba(128, 255, 0, 0.25);
+    width: fit-content;
+    list-style-image: url("http://localhost/eu_dev_perozin/assets/img/crown.svg");
+    margin-bottom: 2em;
+}
+
+.about{
+    display: inline-grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.about p{
+    max-width: 70%;
+}
+
+table{
+    width: 70vw;
+}
+
+.about table{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about table td, .about table th{
+    border: 1px solid rgba(128, 255, 0, 0.445);
+}
+
+.about table th{
+    padding: 0.5em;
+}
+
+.about table tfoot td{
+    font-size: 0.8em;
+}
+
+.about img{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15px;
+    filter: brightness(45%);
+    margin-right: 2em;
+}
+
+.about img.right{
+    margin-left: 2em;
+}
+
+.img-div{
+    display: flex;
+    margin-bottom: 3em;
+    align-items: center;
+    width: 70vw;
+}
+
+.img-div p{
+    text-align: left;
+}
+.img-div.right p{
+    text-align: end;
+}
+
+.img-div.right .right{
+    filter: brightness(90%);
+}
+
+a{
+    color: chartreuse;
+    text-shadow: none;
+}
+
+a:hover{
+    text-shadow: 4px 4px 8px rgb(195, 255, 135);
+    font-weight: 700;
+}
+
+.back-top{
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2vw;
 }
