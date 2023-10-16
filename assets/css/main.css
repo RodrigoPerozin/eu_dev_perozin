@@ -8,6 +8,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     color:chartreuse;
     text-align: center;
+    height: 100vh;
 }
 
 ::-webkit-scrollbar {

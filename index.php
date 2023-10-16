@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <title>eu_perozin</title>
 </head>
 <body>
@@ -16,5 +15,6 @@
         <?php include_once("pages/dinamic/header.php")?>
     </header>
     <section id="content"></section>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
