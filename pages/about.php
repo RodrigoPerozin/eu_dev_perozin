@@ -26,13 +26,13 @@
         </thead>
         <tbody>
             <tr>
-                <td>Neomind</td>
+                <td onclick="goToLink('linkedin.com/company/neomind')">Neomind <?php include("../assets/img/ext.svg")?></td>
                 <td>Full Stack Developer</td>
                 <td>1y 11mo</td>
                 <td>Hybrid</td>
             </tr>
             <tr>
-                <td>Labtrans (FAPEU-UFSC)</td>
+                <td onclick="goToLink('linkedin.com/company/labtrans')">Labtrans(FAPEU-UFSC) <?php include("../assets/img/ext.svg")?></td>
                 <td>Junior Dev|User Support</td>
                 <td>3mo</td>
                 <td>Remote</td>
@@ -54,7 +54,7 @@
         <b>Kanban</b>, which works as the image below illustrates:
     </p>
     <div class="img-div">
-        <img src="http://localhost:80/eu_dev_perozin/assets/img/kanban.jpg" alt="kanban method image">
+        <img src="http://192.168.0.3:80/eu_dev_perozin/assets/img/kanban.jpg" alt="kanban method image">
         <p>Kanban is a visual process management methodology that is based
             on visual cards to represent tasks on a board. Each card represents
             an activity and cycles through columns indicating its status in the workflow,
@@ -74,7 +74,7 @@
             these goals during the sprint. During the sprint, daily synchronization meetings called
             Daily Scrum. At the end of the sprint, there is a review, where the completed work is demonstrated
             and feedback is received.</p>
-        <img class="right" src="http://localhost:80/eu_dev_perozin/assets/img/scrum.jpg" alt="kanban method image">
+        <img class="right" src="http://192.168.0.3:80/eu_dev_perozin/assets/img/scrum.jpg" alt="kanban method image">
     </div>
     <p>Now that you've read a little about my experiences, how about finding out about my intentions for the future?
         Well, in a few years I see myself producing solutions and solving problems for the world, making life easier

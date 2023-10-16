@@ -5,12 +5,18 @@
         height: 44vh;
     }
 
+    .ext{
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+
     .img-div{
         display: contents;
         width: 100%;
     }
     .img-div img{
-        margin: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     .img-div p{
         text-align: center;
@@ -23,7 +29,8 @@
         justify-content: center;
     }
     .img-div.right .right{
-        margin: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     .img-div.right p{
         text-align: center;
@@ -36,12 +43,22 @@
         background-color: rgba(44, 124, 28, 0.199);
         border-radius: 10px;
     }
+    .back-top{
+        text-decoration: none;
+    }
+    .ext{
+        width: 1.4vw;
+        height: 1.4vw;
+    }
 }
 
 @media (max-width: 950px) {
     .about img{
         width: 52vw;
         height: 51vh;
+    }
+    .back-top{
+        text-decoration: none;
     }
 }
 
@@ -50,11 +67,25 @@
         width: 69vw;
         height: 51vh;
     }
+    .back-top{
+        text-decoration: none;
+    }
+    .ext{
+        width: 1.8vw;
+        height: 1.8vw;
+    }
 }
 
 @media (max-width: 700px) {
     table{
         width: 80vw;
+    }
+    .back-top{
+        text-decoration: none;
+    }
+    .ext{
+        width: 2vw;
+        height: 2vw;
     }
 }
 
@@ -62,6 +93,13 @@
     .about img{
         width: 75vw;
         height: 51vh;
+    }
+    .back-top{
+        text-decoration: none;
+    }
+    .ext{
+        width: 2.2vw;
+        height: 2.2vw;
     }
 }
 
@@ -75,5 +113,34 @@
     }
     table{
         width: 85vw;
+    }
+    .back-top{
+        text-decoration: none;
+    }
+    .ext{
+        width: 2.4vw;
+        height: 2.4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #content{
+        font-size: 80%;
+    }
+    .back-top{
+        text-decoration: none;
+        width: 35%;
+        text-shadow: 4px 4px 8px rgb(195, 255, 135);
+    }
+    .about img{
+        width: 75vw;
+        height: 24vh;
+    }
+    table{
+        width: 85vw;
+    }
+    .ext{
+        width: 2.5vw;
+        height: 2.5vw;
     }
 }

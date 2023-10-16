@@ -1,7 +1,7 @@
 APP = new Object()
 APP.root = "/eu_dev_perozin/"
 
-goTo = (objElemnt) => {
+goToPage = (objElemnt) => {
 
     var header_buttons  = $("header button")
 
@@ -17,4 +17,8 @@ goTo = (objElemnt) => {
 
     $("#content").load(APP.root + "pages/"+pageName+".php");
 
+}
+
+goToLink = (link) => {
+    window.open("https://"+link);
 }

@@ -117,6 +117,7 @@ table{
 
 .about table td, .about table th{
     border: 1px solid rgba(128, 255, 0, 0.445);
+    padding: 0.5em;
 }
 
 .about table th{
@@ -160,15 +161,23 @@ table{
 a{
     color: chartreuse;
     text-shadow: none;
+    border-radius: 10px;
 }
 
 a:hover{
     text-shadow: 4px 4px 8px rgb(195, 255, 135);
     font-weight: 700;
+    background-color: rgba(43, 146, 22, 0.192);
 }
 
 .back-top{
     padding: 2em;
     margin-top: 2em;
-    margin-bottom: 2vw;
+    margin-bottom: 4em;
+    border: 1px solid chartreuse;
+}
+
+.ext{
+    width: 1vw;
+    height: 1vw;
 }
