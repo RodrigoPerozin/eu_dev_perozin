@@ -25,6 +25,17 @@ header{
     margin-bottom: 5em;
 }
 
+header h1 select{
+    background-color: black;
+    color: chartreuse;
+    border: none;
+    position: absolute;
+}
+
+header h1 select:hover{
+    box-shadow: 0 0 10px chartreuse;
+}
+
 header div{
     width: 90%;
     padding-left: 5%;

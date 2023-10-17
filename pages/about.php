@@ -1,14 +1,14 @@
 <div class="about">
-    <p>Hi, my name is Rodrigo Destri Perozin, I'm 20 years old, I'm a student and professional in the field of
+    <p id="abouttxt-1">Hi, my name is Rodrigo Destri Perozin, I'm 20 years old, I'm a student and professional in the field of
         Systems Analysis and Development (ADS). If I were to classify myself in a professional level, I would say 
         that I am a Junior/Mid-level, even because I have been studying and interested in the area since 2014. 
         My training currently is:
     </p>
     <ul>
-        <li><i>Systems Analysis and Development Technician</i></li>
-        <li><i>Bachelor in Systems Analysis and Development</i></li>
+        <li><i id="abouttxt-2">Systems Analysis and Development Technician</i></li>
+        <li><i id="abouttxt-3">Bachelor in Systems Analysis and Development</i></li>
     </ul>
-    <p>I was always curious to know how systems and websites work, how they were created, I had no idea,
+    <p id="abouttxt-4">I was always curious to know how systems and websites work, how they were created, I had no idea,
         until one day I started looking for tutorials on how to create systems, websites, and from then on I always kept
         contact with the area. At the end of high school, I completed a technical degree (mentioned above), and I was able to have contact with several
         technologies and concepts in the programming area. Now, I'm graduating with a Bachelor's in Analytics and Development
@@ -18,24 +18,24 @@
     <table>
         <thead>
             <tr>
-                <th>Company</th>
-                <th>Occupation</th>
-                <th>Duration</th>
-                <th>Category</th>
+                <th id="abouttxt-5">Company</th>
+                <th id="abouttxt-6">Occupation</th>
+                <th id="abouttxt-7">Duration</th>
+                <th id="abouttxt-8">Category</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td onclick="goToLink('linkedin.com/company/neomind')">Neomind <?php include("../assets/img/ext.svg")?></td>
-                <td>Full Stack Developer</td>
-                <td>1y 11mo</td>
-                <td>Hybrid</td>
+                <td id="abouttxt-9">Full Stack Developer</td>
+                <td id="abouttxt-10">1y 11mo</td>
+                <td id="abouttxt-11">Hybrid</td>
             </tr>
             <tr>
                 <td onclick="goToLink('linkedin.com/company/labtrans')">Labtrans(FAPEU-UFSC) <?php include("../assets/img/ext.svg")?></td>
-                <td>Junior Dev|User Support</td>
-                <td>3mo</td>
-                <td>Remote</td>
+                <td id="abouttxt-12">Junior Dev|User Support</td>
+                <td id="abouttxt-13">3mo</td>
+                <td id="abouttxt-14">Remote</td>
             </tr>
         </tbody>
         <tfoot>
@@ -44,7 +44,7 @@
             </tr>
         </tfoot>
     </table>
-    <p>Throughout my professional experience, I learned how to maintain
+    <p id="abouttxt-15">Throughout my professional experience, I learned how to maintain
         in codes, create new functions and screens in a system, analyze
         of a system, have strong communication with the team for good
         project progress, I learned a lot about analyzing business rules
@@ -55,7 +55,7 @@
     </p>
     <div class="img-div">
         <img src="http://localhost:80/eu_dev_perozin/assets/img/kanban.jpg" alt="kanban method image">
-        <p>Kanban is a visual process management methodology that is based
+        <p id="abouttxt-16">Kanban is a visual process management methodology that is based
             on visual cards to represent tasks on a board. Each card represents
             an activity and cycles through columns indicating its status in the workflow,
             usually divided into stages such as "To Do", "In Progress" and "Done".
@@ -66,7 +66,7 @@
             of workflow are crucial to the continuous delivery of value.</p>
     </div>
     <div class="img-div right">
-        <p>I also worked with the Scrum methodology of work divided into <b>sprints</b>, which works
+        <p id="abouttxt-17">I also worked with the Scrum methodology of work divided into <b>sprints</b>, which works
             as follows: Work divided into sprints is a fundamental concept in the agile framework
             Scrum. A sprint is a fixed period of time, usually two to four weeks, during which
             a team commits to delivering working product increments. At the start of each sprint, there are
@@ -76,12 +76,12 @@
             and feedback is received.</p>
         <img class="right" src="http://localhost:80/eu_dev_perozin/assets/img/scrum.jpg" alt="kanban method image">
     </div>
-    <p>Now that you've read a little about my experiences, how about finding out about my intentions for the future?
+    <p id="abouttxt-18">Now that you've read a little about my experiences, how about finding out about my intentions for the future?
         Well, in a few years I see myself producing solutions and solving problems for the world, making life easier
         of people, and impacting everyone's daily lives with my innovations. I want to venture out, discover,
         challenge myself in my own business, who knows? Maybe, everything will depend on my actions and my willingness to do
         things happen. We are all constantly learning, even when we make mistakes, we are learning something, therefore,
         I will try to use each discovery, error or success, to strengthen myself and be a more complete professional!
     </p>
-        <a href="#header-top" class="back-top">Back to the top</a>
+        <a href="#header-top" class="back-top" id="abouttxt-19">Back to the top</a>
 </div>
