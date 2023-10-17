@@ -29,6 +29,7 @@
   ✅ Criar escopo do projeto.<br>
   ✅ Criar estrutura do projeto.<br>
   ✅ Escolher linguagens de programação, marcação, estilização.<br>
-  ✅ Criar layout básico, header, estrutura básica inicial.
-  ✖️ Criar conteúdo das páginas.
+  ✅ Criar layout básico, header, estrutura básica inicial.<br>
+  ✅ Criar conteúdo da página 'About'.<br>
+  ✖️ Criar conteúdo da página 'Stacks'<br>
 </ul>
